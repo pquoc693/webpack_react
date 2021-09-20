@@ -1,0 +1,38 @@
+{
+    "name": "webpack-reactjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "npm run clean && webpack"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "bootstrap": "^3.4.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.6.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.5",
+        "react-router-dom": "^5.3.0",
+        "redux": "^4.1.1",
+        "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
+        "@babel/preset-react": "^7.14.5",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^6.3.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.3.2",
+        "rimraf": "^3.0.2",
+        "style-loader": "^3.2.1",
+        "webpack": "^5.53.0",
+        "webpack-cli": "^4.8.0",
+        "webpack-node-externals": "^3.0.0"
+    }
+}

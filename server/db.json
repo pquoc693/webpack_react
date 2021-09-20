@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iphon 6",
+      "price": 500,
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "dell insprison",
+      "price": "10000",
+      "status": true
+    }
+  ]
+}
